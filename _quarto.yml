@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs 
+
+website:
+  repo-url: https://github.com/The-Swapster/blogsml1
+  repo-actions: [source]
+  title: "BlogsML1"
+  navbar:
+    right:
+      - text: About Me
+        href: https://swapnilsingh.net/
+      - icon: github
+        href: https://github.com/
+format:
+  html:
+    theme: cyborg
+    css: styles.css
+
+
+
